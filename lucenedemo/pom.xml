@@ -71,14 +71,12 @@
 		    <version>${lucene-version}</version>
 		    <scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-codecs -->
 		<dependency>
 		    <groupId>org.apache.lucene</groupId>
 		    <artifactId>lucene-codecs</artifactId>
 		    <version>8.5.2</version>
 		    <scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
 		    <groupId>junit</groupId>
 		    <artifactId>junit</artifactId>
