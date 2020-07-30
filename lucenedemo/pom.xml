@@ -1,0 +1,91 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.charves.demo</groupId>
+	<artifactId>lucenedemo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>lucenedemo</name>
+
+	<properties>
+		<java.version>1.8</java.version>
+		<lucene-version>8.5.2</lucene-version>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+		    <groupId>com.janeluo</groupId>
+		    <artifactId>ikanalyzer</artifactId>
+		    <version>2012_u6</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.apache.lucene</groupId>
+		    <artifactId>lucene-core</artifactId>
+		    <version>${lucene-version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.lucene</groupId>
+		    <artifactId>lucene-analyzers-common</artifactId>
+		    <version>${lucene-version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.lucene</groupId>
+		    <artifactId>lucene-queryparser</artifactId>
+		    <version>${lucene-version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.lucene</groupId>
+		    <artifactId>lucene-highlighter</artifactId>
+		    <version>${lucene-version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.lucene</groupId>
+		    <artifactId>lucene-demo</artifactId>
+		    <version>${lucene-version}</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.apache.lucene</groupId>
+		    <artifactId>lucene-spatial</artifactId>
+		    <version>8.4.1</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.lucene</groupId>
+		    <artifactId>lucene-spatial3d</artifactId>
+		    <version>${lucene-version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.lucene</groupId>
+		    <artifactId>lucene-spatial-extras</artifactId>
+		    <version>${lucene-version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.lucene</groupId>
+		    <artifactId>lucene-analyzers-smartcn</artifactId>
+		    <version>${lucene-version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.lucene</groupId>
+		    <artifactId>lucene-test-framework</artifactId>
+		    <version>${lucene-version}</version>
+		    <scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-codecs -->
+		<dependency>
+		    <groupId>org.apache.lucene</groupId>
+		    <artifactId>lucene-codecs</artifactId>
+		    <version>8.5.2</version>
+		    <scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+		    <groupId>junit</groupId>
+		    <artifactId>junit</artifactId>
+		    <version>4.12</version>
+		    <scope>test</scope>
+		</dependency>
+		
+	</dependencies>
+
+</project>
