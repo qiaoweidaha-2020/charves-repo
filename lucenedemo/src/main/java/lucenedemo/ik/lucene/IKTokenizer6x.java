@@ -14,11 +14,7 @@ import org.wltea.analyzer.core.Lexeme;
  * lucene 6.x及以后，Tokenizer的构造函数不再支持Reader 作为入参数（
  * 更改为在{@link Analyzer#tokenStream(String, java.io.Reader)}传入）
  * IKTokenizer针对Luence 4编写，因此需要重构。
-<<<<<<< HEAD
  * 适用范围：6.x-2012
-=======
- *   测试冲突
->>>>>>> 4837770... made conficting for testing merge
  * @author zqw
  *
  */
